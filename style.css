@@ -13,8 +13,11 @@
 .container {
   padding: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .logo {
   padding: 10px;
@@ -173,4 +176,68 @@ border-radius: 100px;
 border: rgba(115, 6, 6, 1)
  solid 1px;
  margin-top: 42px;
+}
+/*Descubre*/
+.descubre{
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  margin-top: 121px;
+}
+.d-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.d-text span{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.sp{
+  font-weight: 700;
+font-size: 42px;
+line-height: 51px;
+letter-spacing: -0.02em;
+
+color: #000000;
+opacity: 0.5;
+}
+.d-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.d-link{
+  text-decoration: underline;
+  color: #F8194E
+}
+.d-link a{
+  color: #F8194E;
+}
+.d-down{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.d-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+box-shadow: 2.20667px 6.62px 22.0667px 3.31px rgba(0, 0, 0, 0.07);
+border-radius: 16.55px;
+width: 220.67px;
+}
+.card-text{
+  font-weight: 500;
+font-size: 26.48px;
+line-height: 29px;
+letter-spacing: -0.0993px;
+color: #000000;
 }
